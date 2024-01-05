@@ -1,0 +1,287 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url(../img/background.jpeg);
+    background-size: cover;
+    color:#03080d;
+    font-family: "roboto",Arial,Helvetica,sans-serif;
+    font-size:14px;
+}
+.cv-wrapper{
+    background: #5a93c3;
+    width:800px;
+    height: 100%;
+
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border:10px outset ghostwhite;
+}
+
+
+.cv-wrapper header{
+    height:200px;
+}
+.cv-wrapper header .img{
+    position: absolute;
+    margin: 20px;
+
+}
+.cv-wrapper header .img img{
+    height: 150px;
+    border-radius: 50px;
+    box-shadow: 7px 7px #a3d0ff;
+
+}
+
+.cv-wrapper header .title-wrapper {
+    position: relative;
+    margin-left: 220px;
+    padding:1.5%;
+}
+.cv-wrapper header .title-wrapper .name{
+    background: #edf6ff;
+    height:100%;
+    padding:3%;
+    font-size: 2.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px #144b83;
+    text-shadow: 2px 2px 2px #2067af;
+}
+.cv-wrapper header .title-wrapper .subtext{
+    text-align: justify;
+    margin:auto;
+    height:100%;
+    padding:3%;
+}
+
+
+
+.cv-wrapper h2{
+    text-transform: uppercase;
+    margin-top:18px;
+    margin-bottom: 18px;
+}
+.cv-wrapper .left-box h2{
+    text-shadow: 1.1px 1.1px #003b62;
+}
+.cv-wrapper .left-box h2:first-child{
+    margin-top:10px;
+}
+.cv-wrapper .right-box h2:first-child{
+    margin-top:1px;
+}
+
+
+.cv-wrapper .left-box {
+    background: white;
+    position:absolute;
+    height:1100px;
+    width:280px;
+    overflow:hidden;
+}
+.cv-wrapper .left-box .box1, .cv-wrapper .left-box .box2 {
+    width:88%;
+    padding:5%;
+    border:2px dashed white;
+}
+.cv-wrapper .left-box .divers {
+    background: #9fcdf4;
+    height:20%;
+}
+.cv-wrapper .left-box .langues {
+    background: #9fcdf4;
+    height:19.5%;
+}
+.cv-wrapper .left-box .competences {
+    background: #bde1ff;
+    height:24.5%;
+}
+.cv-wrapper .left-box .coordonnees {
+    background: #bde1ff;
+    height:27%;
+}
+
+
+.cv-wrapper .left-box .box1 td {
+    padding:4%;
+}
+.cv-wrapper .left-box .box1 td:first-child{
+    width:50px;
+    background: #aedaff;
+    border-radius:14px;
+}
+.cv-wrapper .left-box .box1 td:last-child{
+    width:200px;
+}
+.cv-wrapper .left-box i{
+    font-size: 1.6em;
+    color:#003b62;
+}
+.cv-wrapper .left-box .divers tr:first-child td:first-child i{
+    transition: all 0.5s ease;
+}
+.cv-wrapper .left-box .divers tr:first-child td:first-child:hover i{
+    transform: rotate(360deg);
+}
+
+
+.cv-wrapper .left-box .box2 tr td:nth-child(2) .skill-bar{
+    margin:8px 0px;
+}
+.cv-wrapper .left-box .box2 tr td:nth-child(2) .skill-bar{
+    background: #c3ffff;
+    width:119px;
+    height:12px;
+    border-radius: 10px;
+}
+.cv-wrapper .left-box .box2 tr td:nth-child(2) .skill-bar .progress{
+    position:relative;
+    border-radius: 10px;
+    background: #0c4c92;
+    height:100%;
+}
+.cv-wrapper .left-box .competences tr:nth-child(2) td:nth-child(2) .skill-bar .progress{
+    width:55%;
+}
+.cv-wrapper .left-box .competences tr:nth-child(3) td:nth-child(2) .skill-bar .progress{
+    width:30%;
+}
+.cv-wrapper .left-box .competences tr:nth-child(5) td:nth-child(2) .skill-bar .progress{
+    width:45%;
+}
+.cv-wrapper .left-box .competences tr:nth-child(7) td:nth-child(2) .skill-bar .progress{
+    width:80%;
+}
+.cv-wrapper .left-box #fennel img{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 310px;
+    width:80px;
+}
+.cv-wrapper .left-box .competences #fennel{
+    visibility: hidden;
+}
+.cv-wrapper .left-box .competences:active #fennel{
+    visibility: visible;
+}
+
+
+.cv-wrapper .left-box .langues table tr td{
+    padding:3%;
+}
+.cv-wrapper .left-box .langues table tr td:first-child{
+    font-weight: bold;
+    text-transform: uppercase;
+    width:45%;
+}
+.cv-wrapper .left-box .langues table tr:nth-child(2):hover td{
+    text-transform: initial;
+    font-size:0.7em;
+    font-family: Marlett;
+    height:16.5px;
+}
+
+
+
+.cv-wrapper .right-box {
+    background: yellow;
+    margin-left:280px;
+    height:1100px;
+    width:auto;
+    overflow:hidden;
+}
+.cv-wrapper .right-box .box{
+    background: coral;
+    width:90%;
+    height:38%;
+    padding:5%;
+    border:2px dashed white;
+}
+.cv-wrapper .right-box .box:nth-child(1){
+    background: #f4faff;
+}
+.cv-wrapper .right-box .box:nth-child(2){
+    background: #dff2ff;
+}
+.cv-wrapper .right-box .box:nth-child(3){
+    background: #f4faff;
+}
+
+.cv-wrapper .right-box hr{
+    border-color: #9fcdf4;
+    width:350px;
+    margin:10px auto;
+}
+.cv-wrapper .right-box h2{
+    text-align: center;
+    text-shadow: 2px 2px #bedcff;
+}
+.cv-wrapper .right-box table{
+    padding:2.5%;
+}
+.cv-wrapper .right-box table tr td{
+    padding-right:35px;
+}
+.cv-wrapper .right-box table tr td ul {
+    padding-top:10px;
+    list-style-type: circle;
+}
+.cv-wrapper .right-box table tr:nth-child(1) td:nth-child(2), .cv-wrapper .right-box table tr:nth-child(2) td:nth-child(2){
+    font-weight: bold;
+}
+.cv-wrapper .right-box i{
+    position:absolute;
+    font-size: 2em;
+    color:#0d4a72;
+}
+.cv-wrapper .right-box .box:nth-child(2) i:hover{
+    transform:scale(1.8);
+}
+.cv-wrapper .right-box .box:last-child i{
+    margin-left:30px;
+}
+
+.cv-wrapper .right-box .box:first-child i{
+    margin-left:110px;
+}
+.cv-wrapper .right-box .box:first-child div:first-child:hover i:first-child{
+    visibility: hidden;
+}
+.cv-wrapper .right-box .box:first-child div:first-child i:last-child{
+    margin-left:108px;
+    visibility: hidden;
+}
+.cv-wrapper .right-box .box:first-child div:first-child:hover i:last-child{
+    visibility: visible;
+}
+
+.cv-wrapper .right-box .box:last-child tr td:first-child{
+    width:100px;
+}
+.cv-wrapper .right-box .box:nth-child(2) #table1 li:last-child{
+    list-style-type: none;
+}
+.cv-wrapper .right-box .box:nth-child(2) #table3:hover{
+    color:#dff2ff;
+}
+.cv-wrapper .left-box #lien:visited{
+    color:yellow;
+}
+.cv-wrapper .right-box .hidden-link:visited, .cv-wrapper .right-box .hidden-link:link{
+    color:#03080d;
+    text-decoration: none;
+}
+
+
+body .graal i{
+    position: absolute;
+    margin-left:200px;
+    margin-top:1000px;
+    font-size: 8em;
+    color:#051931;
+    transform: rotate(-40deg);
+}
